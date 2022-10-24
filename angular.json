@@ -25,7 +25,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "scr/assets/js/jquery-3.6.1.js",
+              "scr/assets/js/script.js"
+            ]
           },
           "configurations": {
             "production": {
