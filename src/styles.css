@@ -11,3 +11,33 @@
   width: 90%;
   margin: 0 auto;
 }
+
+
+
+
+
+/* SEÇÂO OFERTAS */
+
+.card {
+  width: 215px;
+  margin: 20px;
+  box-shadow: 0 0 20px #000;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgb(100, 100, 100) 100%);
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: #C31616;
+  padding: 7px 38px;
+  border-radius: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.card *:not(:first-child) {
+  margin: 5px 10px;
+}
