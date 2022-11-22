@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "guilherme@gmail.com",
+      "password": "$2a$10$PgPbwvKYXZq.ZFHwfeCXKOcfsMMe5oppY5W6m9MIUVosYW9DAysSy",
+      "name": "guilherme",
+      "age": "19",
+      "id": 1
+    }
+  ],
+  "produtos": []
+}
