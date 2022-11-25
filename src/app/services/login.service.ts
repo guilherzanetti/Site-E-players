@@ -10,13 +10,14 @@ export class LoginService {
 
   constructor(private httpClient: HttpClient) { }
 
-  uri = "http://localhost:3000/login"
+  url = "http://localhost:3000/login"
 
   login(usuario: User): Observable<any> {
-    return this.httpClient.post(this.uri, JSON.stringify(usuario), {
+    return this.httpClient.post(this.url, JSON.stringify(usuario), {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
       observe: 'response'
     })
+
   }
 
 }
